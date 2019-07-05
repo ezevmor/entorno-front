@@ -1,0 +1,36 @@
+{
+  "name": "my-project-name",
+  "description": "",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "fontawesome#^4.7.0",
+    "bootstrap-year-calendar": "^1.1.0",
+    "jspdf": "1.3.5",
+    "moment": "^2.18.1",
+    "html2canvas": "^0.4.1",
+    "jquery-ui": "^1.12.1",
+  },
+  "overrides": {
+    "bootstrap-year-calendar": {
+      "main": [
+        "js/bootstrap-year-calendar.js",
+        "css/bootstrap-year-calendar.css",
+        "js/languages/bootstrap-year-calendar.es.js"
+      ]
+    }
+  },
+  "resolutions": {
+    "fullcalendar": "~2.7.1"
+  }
+}
